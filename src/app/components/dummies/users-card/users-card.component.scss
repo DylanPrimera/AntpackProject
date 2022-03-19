@@ -1,0 +1,38 @@
+.card {
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 15px 1px rgba(0, 0, 0, 0.17);
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7px;
+}
+
+.img-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+  width: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.2em;
+  margin-bottom: 1.5em;
+  border-radius: 100%;
+  box-shadow: 0 6px 30px rgb(0 0 0 / 15%), 0 3px 6px rgb(0 0 0 / 20%);
+}
+
+.text {
+  font-size: 15px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 20px;
+}

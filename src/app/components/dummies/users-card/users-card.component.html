@@ -1,0 +1,13 @@
+<div class="card">
+  <div class="card-content">
+    <div class="img-cont">
+      <img appGravatar [email]="user.email"/>
+    </div>
+    <div class="card-content">
+      <span class="name mt-3">{{ user.name }}</span>
+      <span class="text mt-2"> <fa-icon [icon]="emailIcon" [styles]="{'color': '#34B7F1'}"></fa-icon> {{ user.email }}</span>
+      <span class="text mt-2"> <fa-icon [icon]="cityIcon" [styles]="{'color': '#34B7F1'}"></fa-icon> {{ user.address.city }}</span>
+      <span class="text mt-2"> <fa-icon [icon]="companyIcon" [styles]="{'color': '#34B7F1'}"></fa-icon> {{ user.company.name }}</span>
+    </div>
+  </div>
+</div>
